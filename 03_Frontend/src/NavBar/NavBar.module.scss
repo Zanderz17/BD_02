@@ -1,0 +1,27 @@
+.navbar {
+  background-color: #836666;
+  color: #fff;
+  height: 40px;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+
+    li {
+      a {
+        color: #fff;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
